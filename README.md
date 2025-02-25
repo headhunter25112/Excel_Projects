@@ -1,6 +1,6 @@
 # My Excel Projects Repository
 
-Welcome to my collection of Excel projects! This repository serves as a central hub for all the Excel-based work I've done, showcasing my skills in data analysis, visualization, and spreadsheet management. Here, you'll find a variety of projects, from simple data manipulations to more complex financial models and interactive dashboards.
+This repository serves as a central hub for all the Excel-based work I've done, showcasing my skills in data analysis, visualization, and spreadsheet management. Here, you'll find a variety of projects, from simple data manipulations to more complex financial models and interactive dashboards.
 
 ## What's Inside
 
