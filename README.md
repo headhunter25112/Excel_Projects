@@ -1,38 +1,58 @@
-# My Excel Projects Repository
+# Airbnb Rental Analysis
 
-This repository serves as a central hub for all the Excel-based work I've done, showcasing my skills in data analysis, visualization, and spreadsheet management. Here, you'll find a variety of projects, from simple data manipulations to more complex financial models and interactive dashboards.
+This project analyzes Airbnb rental data to gain insights into property characteristics and pricing.
 
-## What's Inside
+## Dataset
 
-This repository is organized into folders, each representing a distinct Excel project. You'll find:
+The dataset contains information about Airbnb rental properties over a fixed period. Key features include:
 
-* **Data Analysis Projects:**
-    * Projects involving data cleaning, transformation, and analysis using Excel's built-in functions and tools.
-    * Examples might include sales analysis, customer segmentation, or survey data analysis.
-* **Financial Modeling:**
-    * Projects focused on financial forecasting, budgeting, and investment analysis.
-    * Examples might include creating profit and loss statements, cash flow projections, or loan amortization schedules.
-* **Dashboard and Visualization:**
-    * Projects demonstrating my ability to create interactive dashboards and visually appealing charts using Excel.
-    * Examples might include sales performance dashboards, project tracking dashboards, or data visualization of trends.
-* **Specific Project Folders:**
-    * Each project gets its own folder.
-    * Inside each folder you will find the .xlsx or .xlsm file, and any supporting documents.
+* **id:** Unique property identifier.
+* **room_type:** Type of rental room (e.g., Entire home/apt, Private room, Shared room).
+* **no_of_accommodates:** Number of adults the property can accommodate.
+* **no_of_bathrooms:** Number of bathrooms in the property.
+* **cancellation_policy:** Cancellation policy of the property (e.g., flexible, moderate, strict).
+* **cleaning_fee:** Indicates whether a cleaning fee is included in the rent (True/False).
+* **instant_bookable:** Indicates whether instant booking is available (True/False).
+* **review_scores_rating:** Average review rating of the property.
+* **no_of_bedrooms:** Number of bedrooms in the property.
+* **no_of_beds:** Total number of beds in the property.
+* **log_price:** Logarithm of the rental price (USD) for a fixed period. (log(price))
 
-## How to Use This Repository
+## Project Goals
 
-1.  **Open the Excel files:**
-    * Open the `.xlsx` or `.xlsm` files using Microsoft Excel or a compatible spreadsheet application.
+The primary goals of this project are to:
 
-## Learning and Improvement
+* Explore and understand the relationships between different property features.
+* Analyze factors influencing rental prices.
+* Identify trends in room types, cancellation policies, and review ratings.
+* Gain insights into which factors most heavily influence the log price.
+* Provide visual representations of the data and findings.
 
-This repository is a live documentation of my Excel journey. I will continually add and refine projects as I improve my skills.
+## Tools Used
 
-## Contact
+* Microsoft Excel (for data cleaning, analysis, and visualization)
 
-Feel free to connect if you have any questions or suggestions:
+## Project Structure
 
-* [LinkedIn](www.linkedin.com/in/harshsharma25)
-* [Email](harshsharmachennai@gmail.com)
+* **`airbnb_data.xlsx`:** The original Airbnb dataset.
+* **`README.md`:** This file, providing project overview and instructions.
 
-Let's explore the power of Excel together!
+## Key Findings (To be populated after analysis)
+
+* (Example: "Properties with more bedrooms tend to have higher log prices.")
+* (Example: "Instant bookable properties have a higher average review score.")
+* (Example: "The distribution of room types reveals that Entire home/apt is the most common.")
+* (Example: "Cancellation policies have a visible effect on the price.")
+
+## How to Use
+
+1.  Download or clone the repository.
+2.  Open `airbnb_data.xlsx` to review the raw data.
+
+## Future Enhancements
+
+* Implement more advanced statistical analysis.
+* Develop predictive models for rental prices.
+* Expand the analysis to include geographical data.
+* Use python and libraries like pandas, and matplotlib to improve the analysis.
+* Create a dashboard.
