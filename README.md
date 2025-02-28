@@ -34,7 +34,7 @@ The primary goals of this project are to:
 
 ## Project Structure
 
-* **`airbnb_data.xlsx`:** The original Airbnb dataset.
+* **`AIRBNB PROJECT.xlsx`:** The original Airbnb dataset.
 * **`README.md`:** This file, providing project overview and instructions.
 
 ## Key Findings (To be populated after analysis)
@@ -47,7 +47,7 @@ The primary goals of this project are to:
 ## How to Use
 
 1.  Download or clone the repository.
-2.  Open `airbnb_data.xlsx` to review the raw data.
+2.  Open `AIRBNB PROJECT.xlsx` to review the raw data.
 
 ## Future Enhancements
 
