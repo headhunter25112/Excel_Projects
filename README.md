@@ -12,6 +12,10 @@ This repository is a compilation of real-world projects where I have used Micros
 - **Description**: Analysis of Airbnb listings to uncover insights about pricing, availability, and location trends.
 - **Skills Used**: Pivot Tables, VLOOKUP, Conditional Formatting, Charts, Data Cleaning
 
+### 2. [House_Price_Case_Study](./House_Price_Case_Study)
+- **Description**: Excel-based analysis of housing data to identify key factors affecting house prices in the US for Real Broker, a real estate startup.
+- **Skills Used**: Data Cleaning, Pivot Tables, Charts, Lookup Functions (VLOOKUP/XLOOKUP), Trend Analysis, Conditional Formatting
+
 *(More projects coming soon!)*
 
 ---
